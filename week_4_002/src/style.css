@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.buttonContainer {
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.textContainer {
+	opacity: 0;
+	border: 2px solid white;
+	border-radius: 15px;
+	width: 50vw;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3rem;
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
