@@ -1,3 +1,4 @@
+////LINK TO TIMELINE DOCUMENTATION https://gsap.com/docs/v3/GSAP/Timeline/
 import './style.css'
 import * as THREE from 'three'
 import {
