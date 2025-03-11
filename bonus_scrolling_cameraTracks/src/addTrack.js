@@ -54,7 +54,7 @@ export const addTrack = () => {
 		wireframe: true,
 		side: DoubleSide,
 		color: 0xffffff,
-		visible: false,
+		visible: true,
 	})
 	const tube = new Mesh(geometry, material)
 

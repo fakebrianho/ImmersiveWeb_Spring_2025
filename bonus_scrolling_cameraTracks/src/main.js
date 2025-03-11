@@ -24,7 +24,7 @@ const camera = new THREE.PerspectiveCamera(
 // Arrays and objects to store scene elements
 const mixers = [] // Store animation mixers
 const meshes = {} // Store all mesh objects
-const lights = {} // Store all lights
+const lights = {} // Store all lightsu
 const scene = new THREE.Scene()
 
 // Scroll animation variables
