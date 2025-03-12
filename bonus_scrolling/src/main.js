@@ -164,10 +164,11 @@ function animate() {
 	const time = progress * totalDuration
 	timeline.seek(time)
 
+
 	// Update debug display
 	debug.innerHTML = `Progress: ${progress.toFixed(
 		3
-	)} , Velocity: ${velocity.toFixed(3)}`
+	)} , time: ${time}`
 
 	renderer.render(scene, camera)
 }
